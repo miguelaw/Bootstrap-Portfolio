@@ -1,0 +1,158 @@
+body
+{
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    background-image: url("../images/intersection.png");
+    background-color: #ffffff;
+}
+
+a:hover 
+{ 
+    background-color: #4aaaa5;
+    color: black;
+}
+
+h2
+{
+    color: #4aaaa5;
+    border-bottom: 2px solid #dddddd;
+}
+
+h3
+{
+    color: #4aaaa5;
+    border-bottom: 2px solid #dddddd;
+}
+
+.container1
+{
+    margin: 0 2% 2% 2%;
+}
+
+#left
+{
+    background-color: #ffffff;
+    color: #777777;
+    border: 2px solid #dddddd;
+    padding: 3%;
+}
+
+#bio-image
+{
+    width:100px; 
+    height:180px;
+    margin: 20px;
+    float: left;
+}
+
+#right
+{
+    background-color: #ffffff;
+    color: #777777;
+    border: 2px solid #dddddd;
+    padding: 3%;
+}
+
+#leftcontact
+{
+    background-color: #ffffff;
+    color: #777777;
+    border: 2px solid #dddddd;
+    padding: 3%;
+}
+
+#leftcontact form
+{
+    padding-left: 8%;
+}
+
+input
+{
+    width: 90%;
+    padding: 2%;
+    margin: 0 0 2%;
+}
+
+textarea
+{
+    width: 90%;
+    padding: 2%;
+    margin: 0 0 2%;
+}
+
+#button1
+{
+    color: white;
+    background-color: teal;
+    width: 20%;
+}
+
+#leftportfolio
+{
+    padding: 3%;
+    background-color: #ffffff;
+    color: #777777;
+    border: 2px solid #dddddd;  
+}
+
+h4
+{
+    background-color: #4aaaa5;
+    color: white;
+    font-family: 'Times New Roman';
+    padding: 3%;
+    text-align: center;
+    width: 28%;  
+}
+
+#img1, #img2, #img3, #img4, #img5
+{
+    width: 200px;
+    height: 200px;
+}
+
+#leftportfolio .left1, #leftportfolio .right1
+{
+	position: relative;
+	width: 75%;
+	padding: 0;
+	margin: 9% auto 5%;
+}
+
+#leftportfolio .left1 h4, #leftportfolio .right1 h4
+{
+    text-align: center;
+    border: none;
+	color: white;
+	background-color: teal;
+	padding: 3% 0 3% 0;
+	margin-bottom: 0;
+	width: 200px;
+	position: absolute;
+	bottom: 3%;
+	left:0;
+	z-index: 1;
+}
+
+footer
+{
+    padding: 1%;
+    position: sticky;
+    bottom: 0;
+    z-index: -1;
+    background-color: #666666;
+    border-top: 5px solid teal;
+    text-align: center;
+    color: #cccccc;
+}
+
+.containerf
+{
+    padding: 1%;
+    position: sticky;
+    bottom: 0;
+    z-index: -1;
+    background-color: #666666;
+    border-top: 5px solid teal;
+    text-align: center;
+    color: #cccccc;
+}
